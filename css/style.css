@@ -1,0 +1,164 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+ nav{
+	background-color: black;
+}
+nav ul li:first-child a{
+	color:#EE5A12;
+}
+nav ul li:first-child a:hover{
+	color:#EE5A12;
+}
+nav ul li a{
+	color:#FFFFFF;
+}
+nav ul li a:hover{
+	color:#FFFFFF;
+}
+/* div.container-fluid{
+	background: linear-gradient(black,gray) ; */
+	/* background-image: url("images/background.jpg") no-repeat; */
+	/* background-attachment: fixed; */
+	/* height:600px; */
+	/* width:100%; */
+	/* text-align: center;
+} */
+ div.content{
+ 	width: 100%;
+	background: linear-gradient(black,gray) ;
+	/* background-image: url("images/background.jpg") no-repeat; */
+	/* background-attachment: fixed; */
+	height:600px;
+	/* width:100%; */
+	text-align: center;
+}
+ div.content h1{
+	color: white;
+	padding-top: 50px;
+	font-size: 100px;
+}
+
+ div.content p{
+	color: #AAAAAA;
+	font-size: 20px;
+}
+
+ div.content a{
+	color:#FFFFFF;
+	
+}
+
+ div.content a:hover{
+	color:#FFFFFF;
+	text-decoration: none;
+	
+}
+
+ div.content a img{
+	width: 3%;
+	margin-left: 20px;
+}
+div.content2{
+	width: 100%;
+	height: 450px;
+	background-color: #555555;
+}
+div.content2 div.left img{
+	border-radius: 50%;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+div.content2 div.right {
+	margin-top: 100px;
+}
+div.content2 div.right h5{
+	color: #FFFFFF;
+}
+div.content2 div.right p{
+	color: #AAAAAA;
+}
+div.content2 div.right a{
+	color:#FFFFFF;
+}
+div.content2 div.right a:hover{
+	text-decoration: none;
+	color:#00CCCC;
+}
+div.content3{
+	/* background-color: yellow; */
+	width: 100%;
+}
+div.content3 div.left1 h2{
+	margin-top: 100px;
+	margin-left: 150px;
+}
+div.content3 div.left1 h5{
+	margin-top: 100px;
+	margin-left: 150px;
+}
+div.content3 div.left1 u {
+	text-decoration: none;
+	border-bottom: 2px solid #0033FF;
+}
+div.content3 div.right1 h3:first-child{
+	margin-top: 100px;
+}
+div.content3 div.right1 p{
+	color:#777777;
+}
+.myProgress{
+	width:80%;
+	
+	background-color: #BBBBBB;
+}
+.myBar{
+	width:50%;
+	height:50px;
+	background-color: #222222;
+}
+ div.myQuote{
+ 	width: 100%;
+	margin-top: 100px;
+	height: 300px;
+	background-color: #222222;
+}
+div.myQuote div.left2 img{
+	margin-top: 100px;
+	margin-left: 120px;
+} 
+div.myQuote div.right2 h5{
+	margin-top: 100px;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'tahoma';
+}
+div.myQuote div.right2 small{
+	color:#FFFFFF;
+	margin-left: 750px;
+}
+div.footer{
+	width:100%;
+	height:250px;
+	background-color: #333333;
+	margin-top: 100px;
+	text-align: center;
+}
+div.footer a img{
+	width: 3%;
+	margin-left: 20px;
+	
+}
+div.footer p{
+	color:#555555;
+	margin-top: 20px;
+}
+div.footer p a{
+	color:#555555;
+}
+div.footer p a:hover{
+	color:#FFFFFF;
+	text-decoration: none;
+}
